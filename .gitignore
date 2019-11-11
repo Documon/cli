@@ -1,0 +1,8 @@
+/dist
+/vendor
+/.idea
+/.vscode
+/.vagrant
+/.work.*
+/.cache
+.documon.yml
