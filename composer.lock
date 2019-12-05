@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdf0b3cac3f449ddaaf52bcf15365c26",
+    "content-hash": "a5a3fcb7740872a71dfeb541a53e009e",
     "packages": [
         {
             "name": "alecrabbit/php-cli-snake",
@@ -159,16 +159,16 @@
         },
         {
             "name": "documon/core",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/documon/core.git",
-                "reference": "6ac86250cb447c19bf9226d1b2971ca298674a40"
+                "reference": "cee8b50e9871934318e9290a33f2db3b5321fd62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/documon/core/zipball/6ac86250cb447c19bf9226d1b2971ca298674a40",
-                "reference": "6ac86250cb447c19bf9226d1b2971ca298674a40",
+                "url": "https://api.github.com/repos/documon/core/zipball/cee8b50e9871934318e9290a33f2db3b5321fd62",
+                "reference": "cee8b50e9871934318e9290a33f2db3b5321fd62",
                 "shasum": ""
             },
             "require": {
@@ -211,7 +211,7 @@
                 }
             ],
             "description": "Core library of Documon",
-            "time": "2019-12-05T04:02:57+00:00"
+            "time": "2019-12-05T08:21:57+00:00"
         },
         {
             "name": "documon/renderer-example",
