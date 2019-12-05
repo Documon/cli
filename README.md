@@ -8,23 +8,12 @@ The goal of Documon is to convert files in various formats to online HTML docume
 
 ## Why not Pandoc?
 
-[Pandoc] (https://pandoc.org/) is an amazing tool, but its main purpose is to convert file formats, not to generate documentation.
+[Pandoc](https://pandoc.org/) is an amazing tool, but its main purpose is to convert file formats, not to generate documentation.
 
 ## Requirements
 
 * PHP 7.2+ with pcntl extension
 * Node.js 12.0+ with yarn
-
-## Usage
-
-Create config file and generate the templates:
-
-```bash
-documon init
-```
-
-
-
 
 ## License
 
