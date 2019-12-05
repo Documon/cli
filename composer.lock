@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "760b1b105115292b9e3d2f831b915cda",
+    "content-hash": "bdf0b3cac3f449ddaaf52bcf15365c26",
     "packages": [
+        {
+            "name": "alecrabbit/php-cli-snake",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alecrabbit/php-cli-snake.git",
+                "reference": "d4aa6ab9880c708b6a35abb43f3113566ca71c38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alecrabbit/php-cli-snake/zipball/d4aa6ab9880c708b6a35abb43f3113566ca71c38",
+                "reference": "d4aa6ab9880c708b6a35abb43f3113566ca71c38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^3.0",
+                "phpunit/phpunit": "^8.0",
+                "react/event-loop": "^1.1",
+                "symfony/var-dumper": "^4.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlecRabbit\\Snake\\": "src\\Snake"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Lightweight cli spinner with zero dependencies",
+            "keywords": [
+                "256color",
+                "8bit",
+                "ansi",
+                "cli",
+                "color",
+                "colorful",
+                "console",
+                "php",
+                "snake",
+                "spinner"
+            ],
+            "time": "2019-11-01T19:34:36+00:00"
+        },
         {
             "name": "doctrine/inflector",
             "version": "1.3.1",
@@ -74,6 +122,146 @@
             "time": "2019-10-30T19:59:35+00:00"
         },
         {
+            "name": "documon/contract",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/documon/contract.git",
+                "reference": "400e1f165ac1865a651954737c30de7adeb9fa84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/documon/contract/zipball/400e1f165ac1865a651954737c30de7adeb9fa84",
+                "reference": "400e1f165ac1865a651954737c30de7adeb9fa84",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Documon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jace Ju",
+                    "email": "jaceju@gmail.com"
+                }
+            ],
+            "description": "A set of abstractions extracted out of Documon",
+            "time": "2019-12-05T02:53:42+00:00"
+        },
+        {
+            "name": "documon/core",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/documon/core.git",
+                "reference": "6ac86250cb447c19bf9226d1b2971ca298674a40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/documon/core/zipball/6ac86250cb447c19bf9226d1b2971ca298674a40",
+                "reference": "6ac86250cb447c19bf9226d1b2971ca298674a40",
+                "shasum": ""
+            },
+            "require": {
+                "alecrabbit/php-cli-snake": "^0.5.0",
+                "documon/contract": "^0.1.0",
+                "ext-pcntl": "*",
+                "illuminate/console": "^5.8",
+                "illuminate/filesystem": "^5.8",
+                "jasonlewis/resource-watcher": "^1.2",
+                "php": ">=7.2",
+                "react/child-process": "^0.6.1",
+                "react/event-loop": "^1.1",
+                "symfony/yaml": "^4.0"
+            },
+            "require-dev": {
+                "codedungeon/phpunit-result-printer": "^0.26",
+                "mockery/mockery": "^1.2",
+                "orchestra/testbench-core": "^3.8",
+                "phpunit/phpunit": "^7.0|^8.0",
+                "roave/security-advisories": "dev-master"
+            },
+            "suggest": {
+                "mikey179/vfsStream": "Virtual file system to mock the real file system in unit tests.",
+                "spatie/phpunit-watcher": "Automatically rerun PHPUnit tests when source code changes (Install globally)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Documon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jace Ju",
+                    "email": "jaceju@gmail.com"
+                }
+            ],
+            "description": "Core library of Documon",
+            "time": "2019-12-05T04:02:57+00:00"
+        },
+        {
+            "name": "documon/renderer-example",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/documon/renderer-example.git",
+                "reference": "2dd99f3f1c2c3faa1fd4c9561f7b19bcf4f7a9ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/documon/renderer-example/zipball/2dd99f3f1c2c3faa1fd4c9561f7b19bcf4f7a9ab",
+                "reference": "2dd99f3f1c2c3faa1fd4c9561f7b19bcf4f7a9ab",
+                "shasum": ""
+            },
+            "require": {
+                "documon/contract": "^0.1.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "codedungeon/phpunit-result-printer": "^0.26",
+                "mockery/mockery": "^1.2",
+                "phpunit/phpunit": "^7.0|^8.0",
+                "roave/security-advisories": "dev-master"
+            },
+            "suggest": {
+                "mikey179/vfsStream": "Virtual file system to mock the real file system in unit tests.",
+                "orchestra/testbench": "Laravel Testing Helper for Packages Development",
+                "spatie/phpunit-watcher": "Automatically rerun PHPUnit tests when source code changes (Install globally)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Documon\\Renderer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jace Ju",
+                    "email": "jaceju@gmail.com"
+                }
+            ],
+            "description": "Example renderer for Documon",
+            "time": "2019-12-05T04:15:47+00:00"
+        },
+        {
             "name": "dragonmantank/cron-expression",
             "version": "v2.3.0",
             "source": {
@@ -126,6 +314,49 @@
                 "schedule"
             ],
             "time": "2019-03-31T00:38:28+00:00"
+        },
+        {
+            "name": "evenement/evenement",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/evenement.git",
+                "reference": "531bfb9d15f8aa57454f5f0285b18bec903b8fb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/531bfb9d15f8aa57454f5f0285b18bec903b8fb7",
+                "reference": "531bfb9d15f8aa57454f5f0285b18bec903b8fb7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Evenement": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                }
+            ],
+            "description": "Événement is a very simple event dispatching library for PHP",
+            "keywords": [
+                "event-dispatcher",
+                "event-emitter"
+            ],
+            "time": "2017-07-23T21:35:13+00:00"
         },
         {
             "name": "filp/whoops",
@@ -666,6 +897,49 @@
             ],
             "description": "Highlight PHP code in terminal",
             "time": "2018-09-29T18:48:56+00:00"
+        },
+        {
+            "name": "jasonlewis/resource-watcher",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasonlewis/resource-watcher.git",
+                "reference": "342928220c88b17f6552864a859a8a1e77a0446e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jasonlewis/resource-watcher/zipball/342928220c88b17f6552864a859a8a1e77a0446e",
+                "reference": "342928220c88b17f6552864a859a8a1e77a0446e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "~4.0|~5.0",
+                "illuminate/support": "~4.0|~5.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JasonLewis\\ResourceWatcher": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Jason Lewis",
+                    "email": "jason.lewis1991@gmail.com"
+                }
+            ],
+            "description": "Simple PHP resource watcher library.",
+            "keywords": [
+                "assets",
+                "laravel",
+                "resource"
+            ],
+            "time": "2015-07-11T10:22:48+00:00"
         },
         {
             "name": "jolicode/jolinotif",
@@ -1440,6 +1714,137 @@
             "time": "2017-10-23T01:57:42+00:00"
         },
         {
+            "name": "react/child-process",
+            "version": "v0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/child-process.git",
+                "reference": "6895afa583d51dc10a4b9e93cd3bce17b3b77ac3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/child-process/zipball/6895afa583d51dc10a4b9e93cd3bce17b3b77ac3",
+                "reference": "6895afa583d51dc10a4b9e93cd3bce17b3b77ac3",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3.0",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
+                "react/stream": "^1.0 || ^0.7.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35",
+                "react/socket": "^1.0",
+                "sebastian/environment": "^3.0 || ^2.0 || ^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\ChildProcess\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event-driven library for executing child processes with ReactPHP.",
+            "keywords": [
+                "event-driven",
+                "process",
+                "reactphp"
+            ],
+            "time": "2019-02-15T13:48:16+00:00"
+        },
+        {
+            "name": "react/event-loop",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/event-loop.git",
+                "reference": "a0ecac955c67b57c40fe4a1b88a7cca1b58c982d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/a0ecac955c67b57c40fe4a1b88a7cca1b58c982d",
+                "reference": "a0ecac955c67b57c40fe4a1b88a7cca1b58c982d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35"
+            },
+            "suggest": {
+                "ext-event": "~1.0 for ExtEventLoop",
+                "ext-pcntl": "For signal handling support when using the StreamSelectLoop",
+                "ext-uv": "* for ExtUvLoop"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\EventLoop\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ReactPHP's core reactor event loop that libraries can use for evented I/O.",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2019-02-07T16:19:49+00:00"
+        },
+        {
+            "name": "react/stream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/stream.git",
+                "reference": "50426855f7a77ddf43b9266c22320df5bf6c6ce6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/50426855f7a77ddf43b9266c22320df5bf6c6ce6",
+                "reference": "50426855f7a77ddf43b9266c22320df5bf6c6ce6",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3.8",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5"
+            },
+            "require-dev": {
+                "clue/stream-filter": "~1.2",
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Stream\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event-driven readable and writable streams for non-blocking I/O in ReactPHP",
+            "keywords": [
+                "event-driven",
+                "io",
+                "non-blocking",
+                "pipe",
+                "reactphp",
+                "readable",
+                "stream",
+                "writable"
+            ],
+            "time": "2019-01-01T16:15:09+00:00"
+        },
+        {
             "name": "symfony/console",
             "version": "v4.4.1",
             "source": {
@@ -2166,6 +2571,65 @@
                 "dump"
             ],
             "time": "2019-11-28T13:33:56+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v4.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "76de473358fe802578a415d5bb43c296cf09d211"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/76de473358fe802578a415d5bb43c296cf09d211",
+                "reference": "76de473358fe802578a415d5bb43c296cf09d211",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "^3.4|^4.0|^5.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-11-12T14:51:11+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
